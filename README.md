@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "Работа с HTML-формами"
 
-[![Build status](https://ci.appveyor.com/api/projects/status/kp3wsgeu33owawdk?svg=true)](https://ci.appveyor.com/project/Alex-EDG/hw-ahj-forms-popovers)
+[![Build status](https://ci.appveyor.com/api/projects/status/nt51awnolwvxipi2?svg=true)](https://ci.appveyor.com/project/Alex-EDG/hw-ahj-forms-popovers)
 
 [Github Pages](https://alex-edg.github.io/HW_ahj_forms-Popovers/)
 

@@ -1,0 +1,48 @@
+.tooltip {
+  width: 360px;
+  position: absolute;
+}
+
+.tooltip__content {
+  border: 3px solid var(--brdColor);
+  border-radius: var(--brdRadius);
+}
+
+.tooltip__arrow {
+  position: relative;
+}
+
+.tooltip__arrow::before,
+.tooltip__arrow::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+}
+
+.tooltip__arrow::before {
+  top: -2.5px;
+  border: 10px solid transparent;
+  border-top-color: var(--brdColor);
+}
+
+.tooltip__arrow::after {
+  top: -2.5px;
+  border: 6px solid transparent;
+  border-top-color: white;
+}
+
+.tooltip__title {
+  font-size: 1.3rem;
+  padding: 15px;
+  background-color: rgb(245, 245, 245);
+  border-bottom: 1px solid rgb(160, 159, 159);
+}
+
+.tooltip__text {
+  padding: 15px;
+  font-size: 1.2rem;
+}
